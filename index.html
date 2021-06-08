@@ -8,14 +8,16 @@
   <link rel="stylesheet" href="cronometro.css">
 </head>
 <body>
-  <div class="max-width">
-    <button class="bg-green" onclick="start();">Iniciar</button>
-    <button class="bg-yellow" onclick="pause();">Pausar</button>
-    <button class="bg-red" onclick="stop();">Parar</button>
-    <h1 id="counter">00:00:00</h1>
+  <div class="fundo">
+    <h1 class="title">Cronômetro</h1>
+    <div class="max-width">
+      <button class="bg-green" onclick="start();">Iniciar</button>
+      <button class="bg-yellow" onclick="pause();">Pausar</button>
+      <button class="bg-red" onclick="stop();">Parar</button>
+      <h1 id="counter">00:00:00</h1>
+    </div>
+    <h4 class="created">By: <a href="https://github.com/getuliogutemberg" target="_blank">Getúlio Gutemberg<a></h4>
   </div>
-  <h4 class="created">By: <a href="https://github.com/getuliogutemberg" target="_blank">Getúlio Gutemberg<a></h4>
-
 </body>
 <script src="cronometro.js"></script>
 </html>
